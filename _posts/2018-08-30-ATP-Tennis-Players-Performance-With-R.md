@@ -28,7 +28,7 @@ top_players <- head(  atp_matches.long %>%
                       arrange(desc(n)), n = N)
 ```
 
-<img src="images/ATP-Tennis-Players-Performance-With-R-top_winning_plot-1.png" style="display: block; margin: auto;" />
+<img src="../images/test_top_winning_plot-1.png" style="display: block; margin: auto;" />
 
 now let's see the top players
 =============================
