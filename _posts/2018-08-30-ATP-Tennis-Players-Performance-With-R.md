@@ -1,7 +1,3 @@
-Measuring ATP Tennis Players Performance With R
-================
-Alessandro Saccoia
-30/08/2018
 
 R Markdown
 ----------
@@ -11,14 +7,25 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ``` r
-summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
+suppressMessages(library(stargazer))
+library(stargazer)
+stargazer(cars)
+## 
+## % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+## % Date and time: Thu, Aug 30, 2018 - 15:00:13
+## \begin{table}[!htbp] \centering 
+##   \caption{} 
+##   \label{} 
+## \begin{tabular}{@{\extracolsep{5pt}}lccccccc} 
+## \\[-1.8ex]\hline 
+## \hline \\[-1.8ex] 
+## Statistic & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{St. Dev.} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Pctl(25)} & \multicolumn{1}{c}{Pctl(75)} & \multicolumn{1}{c}{Max} \\ 
+## \hline \\[-1.8ex] 
+## speed & 50 & 15.400 & 5.288 & 4 & 12 & 19 & 25 \\ 
+## dist & 50 & 42.980 & 25.769 & 2 & 26 & 56 & 120 \\ 
+## \hline \\[-1.8ex] 
+## \end{tabular} 
+## \end{table}
 ```
 
 Including Plots
