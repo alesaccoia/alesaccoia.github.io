@@ -1,12 +1,3 @@
-KDD 2019 Customer Churn Exploration
-================
-Alessandro Saccoia
-11/09/2018
-
-<style>
-body {
-text-align: justify}
-</style>
 WHAT IS CUSTOMER CHURN?
 -----------------------
 
